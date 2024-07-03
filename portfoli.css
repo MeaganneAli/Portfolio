@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+ 
+ }
+
+body {
+    margin: 0;
+    background-color:#FFFBE9; 
+    font-family: "Playfair Display", serif;
+
+
+}
+#Home .container {
+padding-bottom:10rem;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+ }
+
+ .intro{
+    border-radius: 30px;
+    padding: 2rem;
+    padding-top: 10rem;
+    border:5px solid white;
+    background-color: #DAE2B6;
+
+}
+.mea{
+       color:white;
+        font-style: bold;
+        font-family: "Spicy Rice", serif;
+        background-color: #DAE2B6;
+
+        }
+
+.name{
+    color:white;
+    font-family: "Spicy Rice", serif;
+    font-size: 100px;
+    background-color: #DAE2B6;
+
+ }
+ @media (max-width: 1100px) {
+    .intro {
+         padding-top: 5rem;
+     }
+    
+     .name{
+   
+        font-size: 50px;
+        text-align: center;
+        flex-wrap: wrap;
+     }
+    
+     .mea{
+        text-align: center;
+        flex-wrap: wrap;
+  
+         }
+         #Home .container {
+            padding-bottom:5rem;
+            }
+    }
+ /**---about----**/
+ 
+    #About{
+        border:5px solid white;
+        background-color: #DAE2B6;
+        margin-bottom: 2rem;
+        border: 5px solid white;
+
+
+    }
+    .my-5 {
+        margin-top: 3rem !important;
+        margin-bottom: 10rem !important;
+    }
+    .lead{
+        padding-top: 2rem;
+        color:white;
+        font-family: "Spicy Rice", serif;
+
+    }
+    .text-body-emphasis {
+        --bs-text-opacity: 1;
+        color: white;
+        font-family: "Spicy Rice", serif;
+
+    }
+    @media (max-width: 1100px) {
+        .my-5 {
+            margin-top: 2rem !important;
+            margin-bottom: 5rem !important;
+        }
+
+    }
+
+          /**---PROJECTS----**/
+          a {
+            color: #b6ccc1;
+            text-decoration: none;
+        }
+         
+.pb-2{
+    color:black;
+    font-family: "Spicy Rice", serif;
+font-size:50px;
+}
+ 
+
+ 
+
+            /**---Skills----**/
+
+
+
+
+.Skl{
+ 
+    border: 5px solid white;
+    background-color:#DAE2B6; 
+      padding-bottom: 11rem;
+ }
+.skills-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color:#FFFBE9; 
+    border-radius: 30px;
+    border:5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.skills-content {
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    flex: 1;
+
+
+}
+.lgi {
+    list-style: none;
+    color:rgb(36, 34, 34);
+
+
+}
+.skls{
+    color:white;
+    font-family: "Spicy Rice", serif;
+font-size:50px;  
+padding-top:5rem;
+padding-bottom:3rem;
+
+
+}
+
+ 
+ 
